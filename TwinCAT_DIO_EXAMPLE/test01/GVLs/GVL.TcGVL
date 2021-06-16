@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.6">
+  <GVL Name="GVL" Id="{f0692d3a-e688-46af-9fcd-56b8a7d83856}">
+    <Declaration><![CDATA[{attribute 'qualified_only'}
+VAR_GLOBAL
+	DI_00	AT%IX0.0	:BOOL;
+	DI_01	AT%IX0.1	:BOOL;
+	DI_02	AT%IX0.2	:BOOL;
+	DI_03	AT%IX0.3	:BOOL;
+	DI_04	AT%IX0.4	:BOOL;
+	DI_05	AT%IX0.5	:BOOL;
+	DI_06	AT%IX0.6	:BOOL;
+	DI_07	AT%IX0.7	:BOOL;
+	
+	DO_00	AT%QX0.0	:BOOL;
+	DO_01	AT%QX0.1	:BOOL;
+	DO_02	AT%QX0.2	:BOOL;
+	DO_03	AT%QX0.3	:BOOL;
+	DO_04	AT%QX0.4	:BOOL;
+	DO_05	AT%QX0.5	:BOOL;
+	DO_06	AT%QX0.6	:BOOL;
+	DO_07	AT%QX0.7	:BOOL;
+	
+END_VAR]]></Declaration>
+  </GVL>
+</TcPlcObject>
